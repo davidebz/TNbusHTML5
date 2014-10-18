@@ -1,0 +1,52 @@
+
+.bus-station-detail .sponsors
+{
+	margin-top:20px;
+	height:80px;
+}
+
+.bus-station-detail .sponsors > *
+{
+	padding-top:10px;
+	text-align:center;
+	vertical-align: middle;
+	float:left;
+	width:180px;
+	height:60px;
+	border: 2px solid #cd7f32
+}
+
+.bus-station-detail .sponsors > *:not(:first-child)
+{
+	margin-left:5px;
+}
+
+.home .sponsor
+{
+	padding-top:10px;
+	height:96px;
+	vertical-align:center;
+	text-align:center;
+	border:3px solid #FFD700;
+	width:375px;
+}
+.home .sponsor>.gold
+{
+	line-height:normal;
+	display:inline-block;
+}
+
+.sponsor
+{
+	color:#666666;
+}
+
+.route .sponsor .silver
+{
+	height:60px;
+	border:3px solid #E3E4E5;
+	width:380px;
+	margin-bottom:10px;
+	text-align:center;
+	padding-top:10px;
+}
